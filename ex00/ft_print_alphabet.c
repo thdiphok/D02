@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: thdiphok <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/14 07:58:31 by thdiphok          #+#    #+#             */
+/*   Updated: 2020/07/14 07:58:43 by thdiphok         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
 void ft_putchar(char c)
@@ -6,7 +18,8 @@ void ft_putchar(char c)
 }
 void ft_print_alphabet(void)
 {
-    char L ='a';
+    char L ;
+		 L ='a';
 	while(L <= 'z')
 	{
         ft_putchar(L);
